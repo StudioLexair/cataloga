@@ -24,6 +24,18 @@ Este repositorio contiene el proyecto comercial completo:
 | Marketing  | `/`          | Página comercial del sistema Vitrina         |
 | Catálogo   | `/catalogo`  | Catálogo demo Casa Lum (colección OI 2026)   |
 
+## Planes (pago único, en CUP)
+
+| Plan         | Precio       | Base de datos | Incluye                                                     |
+| ------------ | ------------ | ------------- | ----------------------------------------------------------- |
+| **Básico**   | 16,000 CUP   | No            | 1 catálogo básico, hasta 25 productos, funciones esenciales  |
+| **Premium**  | 36,000 CUP   | No            | Catálogo completo (hasta 300 productos), diseño a medida, analítica |
+| **Empresarial** | 56,000 CUP | **Sí**        | Todo Premium + base de datos en la nube, panel de administración, API |
+
+> Los planes Básico y Premium no incluyen base de datos: las actualizaciones las
+> realiza el equipo. El plan Empresarial añade base de datos, panel propio y
+> actualizaciones en tiempo real.
+
 ## Stack
 
 - **Next.js 14** (App Router, TypeScript)

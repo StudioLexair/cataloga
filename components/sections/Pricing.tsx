@@ -1,52 +1,63 @@
 import Reveal from "@/components/Reveal";
-import { IconCheck, IconSparkle, IconArrowRight } from "@/components/icons";
+import { IconCheck, IconClose, IconSparkle, IconArrowRight } from "@/components/icons";
 
 const plans = [
   {
-    name: "Esencial",
-    price: 39,
-    tagline: "Para un catálogo que arranca fuerte.",
+    name: "Básico",
+    price: "16,000",
+    tagline: "Un catálogo esencial para empezar a vender.",
     featured: false,
+    db: false,
+    badge: null as string | null,
     features: [
-      "1 catálogo activo",
-      "Hasta 60 productos",
+      "1 catálogo básico",
+      "Hasta 25 productos",
+      "Diseño con estilo Vitrina",
       "Link propio + QR imprimible",
       "Pedidos por WhatsApp",
-      "Actualizaciones ilimitadas",
+      "Funciones esenciales",
       "Soporte por email",
     ],
-    cta: "Empezar con Esencial",
+    cta: "Comprar plan Básico",
   },
   {
-    name: "Profesional",
-    price: 89,
-    tagline: "El favorito de los negocios en crecimiento.",
+    name: "Premium",
+    price: "36,000",
+    tagline: "Catálogo completo y extenso, con todas las funciones.",
     featured: true,
+    db: false,
+    badge: "Más popular",
     features: [
-      "5 catálogos activos",
-      "Hasta 600 productos",
-      "Analítica completa en tiempo real",
-      "Dominio propio (tumarca.com)",
-      "Colecciones, ofertas y destacados",
-      "Importación desde Excel/CSV",
+      "1 catálogo completo (hasta 300 productos)",
+      "Diseño personalizado con tu marca",
+      "Búsqueda, filtros y colecciones",
+      "Ofertas y productos destacados",
+      "Dominio propio + QR",
+      "Analítica de visitas",
+      "Actualizaciones por nuestro equipo",
       "Soporte prioritario",
     ],
-    cta: "Quiero Profesional",
+    cta: "Comprar plan Premium",
   },
   {
     name: "Empresarial",
-    price: 199,
-    tagline: "Para equipos y múltiples sedes.",
+    price: "56,000",
+    tagline: "Sistema completo con base de datos en la nube.",
     featured: false,
+    db: true,
+    badge: "Con base de datos",
     features: [
-      "Catálogos y productos ilimitados",
-      "API + integraciones (tienda, ERP)",
-      "Multi-usuario con roles",
-      "Multi-idioma y multi-moneda",
-      "Onboarding dedicado 1 a 1",
-      "SLA 99.9% y soporte 24/7",
+      "Todo lo del plan Premium",
+      "Base de datos en la nube",
+      "Panel de administración propio",
+      "Productos y catálogos ilimitados",
+      "Actualizaciones en tiempo real",
+      "Usuarios con roles",
+      "API e integraciones",
+      "Analítica de eventos",
+      "Soporte dedicado",
     ],
-    cta: "Hablar con ventas",
+    cta: "Comprar plan Empresarial",
   },
 ];
 
@@ -56,16 +67,16 @@ export default function Pricing() {
       <div className="container-site">
         <Reveal>
           <div className="mx-auto max-w-2xl text-center">
-            <p className="eyebrow">Precios simples</p>
+            <p className="eyebrow">Planes y precios</p>
             <h2 className="mt-4 font-display text-[clamp(2.1rem,4.2vw,3.2rem)] leading-[1.08] text-ink">
-              Invierte menos que un anuncio.{" "}
+              Elige tu plan.{" "}
               <span className="font-displayItal italic text-terra">
-                Vende más que un folleto.
+                Paga una sola vez.
               </span>
             </h2>
             <p className="mt-5 text-[16.5px] leading-relaxed text-ink-soft">
-              Precios en USD, sin comisiones por venta y sin ataduras. Plan
-              anual: 2 meses gratis.
+              Precios en CUP y pago único: compras tu plan una sola vez, sin
+              cuotas mensuales y sin comisiones por venta.
             </p>
           </div>
         </Reveal>
@@ -80,10 +91,15 @@ export default function Pricing() {
                     : "border-line bg-white shadow-soft hover:shadow-lift"
                 }`}
               >
-                {p.featured && (
+                {p.badge && (
                   <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
-                    <span className="inline-flex items-center gap-1.5 rounded-full bg-terra px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-white shadow-btn">
-                      <IconSparkle className="w-3 h-3" /> Más popular
+                    <span
+                      className={`inline-flex items-center gap-1.5 whitespace-nowrap rounded-full px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-white shadow-btn ${
+                        p.featured ? "bg-terra" : "bg-brass"
+                      }`}
+                    >
+                      {p.featured && <IconSparkle className="w-3 h-3" />}
+                      {p.badge}
                     </span>
                   </div>
                 )}
@@ -103,22 +119,29 @@ export default function Pricing() {
                   {p.tagline}
                 </p>
 
-                <div className="mt-6 flex items-baseline gap-1.5">
+                <div className="mt-6 flex items-baseline gap-2">
                   <span
-                    className={`font-display text-[52px] leading-none font-semibold ${
+                    className={`font-display text-[46px] leading-none font-semibold ${
                       p.featured ? "text-paper" : "text-ink"
                     }`}
                   >
-                    ${p.price}
+                    {p.price}
                   </span>
                   <span
-                    className={`text-[14px] ${
-                      p.featured ? "text-paper/60" : "text-ink-mute"
+                    className={`text-[15px] font-semibold ${
+                      p.featured ? "text-brass-light" : "text-brass"
                     }`}
                   >
-                    /mes
+                    CUP
                   </span>
                 </div>
+                <p
+                  className={`mt-2 text-[12.5px] font-medium ${
+                    p.featured ? "text-paper/60" : "text-ink-mute"
+                  }`}
+                >
+                  Pago único · sin cuotas mensuales
+                </p>
 
                 <div
                   className={`mt-6 h-px ${
@@ -144,12 +167,37 @@ export default function Pricing() {
                   ))}
                 </ul>
 
+                {/* el diferenciador clave entre planes */}
+                <div
+                  className={`mt-6 flex items-center gap-2 rounded-2xl px-4 py-3 text-[12.5px] font-semibold ${
+                    p.db
+                      ? p.featured
+                        ? "bg-terra/25 text-paper"
+                        : "bg-olive/15 text-olive"
+                      : p.featured
+                        ? "bg-white/[0.06] text-paper/70"
+                        : "bg-cream text-ink-mute"
+                  }`}
+                >
+                  {p.db ? (
+                    <>
+                      <IconCheck className="w-4 h-4 shrink-0" />
+                      Base de datos incluida
+                    </>
+                  ) : (
+                    <>
+                      <IconClose className="w-4 h-4 shrink-0" />
+                      Sin base de datos
+                    </>
+                  )}
+                </div>
+
                 <a
                   href="#cta-final"
                   className={
                     p.featured
-                      ? "btn-primary mt-8 w-full"
-                      : "btn-ghost mt-8 w-full"
+                      ? "btn-primary mt-6 w-full"
+                      : "btn-ghost mt-6 w-full"
                   }
                 >
                   {p.cta}

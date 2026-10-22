@@ -3,6 +3,10 @@ import { IconChevronDown } from "@/components/icons";
 
 const faqs = [
   {
+    q: "¿Los planes son de pago único?",
+    a: "Sí. Pagas una sola vez por el plan que elijas, en pesos cubanos (CUP), y el catálogo es tuyo. Sin cuotas mensuales obligatorios; si quieres soporte extendido o mantenimiento, se cotiza aparte.",
+  },
+  {
     q: "¿Cuánto tarda tener mi catálogo listo?",
     a: "Entre 48 horas y 5 días hábiles, dependiendo de la cantidad de productos y del nivel de personalización. Si vienes de un PDF o catálogo impreso, nosotros lo digitalizamos y tú solo apruebas.",
   },
@@ -12,11 +16,11 @@ const faqs = [
   },
   {
     q: "¿Vitrina cobra comisión por venta?",
-    a: "Nunca. Pagas una cuota mensual fija por el plan que elijas y todas las ventas tuyas son 100% tuyas. Sin comisiones, sin intermediarios.",
+    a: "Nunca. Pagas una única vez por el plan que elijas (en CUP) y todas las ventas tuyas son 100% tuyas. Sin comisiones, sin intermediarios.",
   },
   {
     q: "¿Puedo usar mi marca, mis colores y mi dominio?",
-    a: "Claro. Todos los planes incluyen tu identidad visual; los planes Profesional y Empresarial además incluyen tu dominio propio (por ejemplo catalogo.tumarca.com).",
+    a: "Claro. Todos los planes incluyen tu identidad visual; los planes Premium y Empresarial además incluyen tu dominio propio (por ejemplo catalogo.tumarca.com).",
   },
   {
     q: "¿Funciona bien en el celular?",
