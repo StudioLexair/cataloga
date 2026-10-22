@@ -7,6 +7,7 @@ import {
   products,
   type Product,
 } from "@/data/catalog";
+import { fetchCatalog, type CatalogRow } from "@/lib/supabase";
 import {
   IconArrowRight,
   IconChat,
@@ -21,7 +22,25 @@ import {
 } from "@/components/icons";
 import { LogoMark } from "@/components/Logo";
 
-const WA_NUMBER = "15551234567";
+const WA_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "15551234567";
+
+/** Convierte una fila de Supabase al modelo visual del catálogo. */
+function rowToProduct(row: CatalogRow): Product {
+  return {
+    id: row.id,
+    name: row.name,
+    category: row.category as Product["category"],
+    price: Number(row.price),
+    blurb: row.blurb ?? "",
+    description: row.description ?? "",
+    badge: (row.badge as Product["badge"]) ?? undefined,
+    materials: row.materials ?? "",
+    dimensions: row.dimensions ?? "",
+    finishes: row.finishes ?? [],
+    art: row.art_url ?? "/products/sofa-liria.svg",
+    tint: row.tint ?? "#F4EDE4",
+  };
+}
 
 function waLink(product?: Product) {
   const text = product
@@ -34,10 +53,24 @@ export default function CatalogClient() {
   const [active, setActive] = useState<(typeof categories)[number]>("Todo");
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<Product | null>(null);
+  // Datos en vivo desde Supabase; si no hay conexión, se usan los datos locales.
+  const [items, setItems] = useState<Product[]>(products);
+
+  useEffect(() => {
+    let alive = true;
+    fetchCatalog("casa-lum").then((rows) => {
+      if (alive && rows && rows.length > 0) {
+        setItems(rows.map(rowToProduct));
+      }
+    });
+    return () => {
+      alive = false;
+    };
+  }, []);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return products.filter((p) => {
+    return items.filter((p) => {
       const byCat = active === "Todo" || p.category === active;
       const byQuery =
         !q ||
@@ -47,7 +80,7 @@ export default function CatalogClient() {
         p.materials.toLowerCase().includes(q);
       return byCat && byQuery;
     });
-  }, [active, query]);
+  }, [active, query, items]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
