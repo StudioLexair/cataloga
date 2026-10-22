@@ -22,7 +22,7 @@ const sans = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://cataloga.vercel.app"),
+  metadataBase: new URL("https://getcataloga.vercel.app"),
   title: {
     default: "Cataloga — Catálogos digitales que venden por ti",
     template: "%s · Cataloga",
