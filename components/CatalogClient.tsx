@@ -22,7 +22,7 @@ import {
 } from "@/components/icons";
 import { LogoMark } from "@/components/Logo";
 
-const WA_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "15551234567";
+const WA_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "5352678747";
 
 /** Convierte una fila de Supabase al modelo visual del catálogo. */
 function rowToProduct(row: CatalogRow): Product {

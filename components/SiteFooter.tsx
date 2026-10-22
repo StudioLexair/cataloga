@@ -63,10 +63,10 @@ export default function SiteFooter() {
             </p>
             <div className="mt-7 flex items-center gap-3">
               <a
-                href="mailto:hola@vitrina.app"
+                href="mailto:studio.lexair@gmail.com"
                 className="inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2.5 text-[13px] text-paper/85 hover:border-white/35 hover:bg-white/5 transition-colors"
               >
-                <IconMail className="w-4 h-4" /> hola@vitrina.app
+                <IconMail className="w-4 h-4" /> studio.lexair@gmail.com
               </a>
               <a
                 href="https://wa.me/15551234567"
@@ -74,7 +74,7 @@ export default function SiteFooter() {
                 rel="noopener"
                 className="inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2.5 text-[13px] text-paper/85 hover:border-white/35 hover:bg-white/5 transition-colors"
               >
-                <IconWhatsApp className="w-4 h-4" /> WhatsApp
+                <IconWhatsApp className="w-4 h-4" /> +53 5267 8747
               </a>
             </div>
           </div>

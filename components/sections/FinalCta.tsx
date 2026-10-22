@@ -55,7 +55,7 @@ export default function FinalCta() {
             <Reveal delay={3}>
               <div className="mt-9 flex flex-wrap items-center gap-3">
                 <a
-                  href="mailto:hola@vitrina.app?subject=Quiero%20mi%20catálogo%20Vitrina"
+                  href="mailto:studio.lexair@gmail.com?subject=Quiero%20mi%20catálogo%20Vitrina"
                   className="btn inline-flex bg-white text-terra-dark hover:-translate-y-0.5 hover:bg-white/95 shadow-lift"
                 >
                   Solicitar mi demo gratuita

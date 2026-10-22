@@ -50,10 +50,10 @@ export default function Faq() {
                 ¿No encuentras tu pregunta? Escríbenos y te respondemos en el
                 día —{" "}
                 <a
-                  href="mailto:hola@vitrina.app"
+                  href="mailto:studio.lexair@gmail.com"
                   className="link-underline font-semibold text-terra"
                 >
-                  hola@vitrina.app
+                  studio.lexair@gmail.com
                 </a>
               </p>
             </Reveal>

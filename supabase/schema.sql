@@ -11,6 +11,7 @@ create table if not exists businesses (
   logo_url text,
   theme jsonb default '{}'::jsonb,
   whatsapp text,
+  contact_email text,
   created_at timestamptz default now()
 );
 
@@ -75,8 +76,8 @@ create policy "public insert events" on catalog_events
 -- ============================================================
 -- Seed del catálogo demo "Casa Lum"
 -- ============================================================
-insert into businesses (slug, name, whatsapp) values
-  ('casa-lum', 'Casa Lum', '15551234567')
+insert into businesses (slug, name, whatsapp, contact_email) values
+  ('casa-lum', 'Casa Lum', '5352678747', 'studio.lexair@gmail.com')
 on conflict (slug) do nothing;
 
 insert into catalogs (business_id, slug, title, season)
