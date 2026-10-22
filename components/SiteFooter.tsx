@@ -69,7 +69,7 @@ export default function SiteFooter() {
                 <IconMail className="w-4 h-4" /> studio.lexair@gmail.com
               </a>
               <a
-                href="https://wa.me/15551234567"
+                href="https://wa.me/5352678747"
                 target="_blank"
                 rel="noopener"
                 className="inline-flex items-center gap-2 rounded-full border border-white/15 px-4 py-2.5 text-[13px] text-paper/85 hover:border-white/35 hover:bg-white/5 transition-colors"
