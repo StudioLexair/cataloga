@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <defs>
+    <path id="seal-circle" d="M90 90m-62 0a62 62 0 1 1 124 0a62 62 0 1 1-124 0"/>
+  </defs>
+  <circle cx="90" cy="90" r="86" fill="#1A1410"/>
+  <circle cx="90" cy="90" r="78" fill="none" stroke="#B08D55" stroke-width="1.5"/>
+  <circle cx="90" cy="90" r="52" fill="none" stroke="#B08D55" stroke-width="1" stroke-dasharray="3 5"/>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" letter-spacing="4" fill="#E9B7A4">
+    <textPath href="#seal-circle" startOffset="0">
+      · GARANTÍA VITRINA · 30 DÍAS SIN RIESGO ·
+    </textPath>
+  </text>
+  <g transform="translate(90 90)">
+    <path d="M-22 6c-2-16 2-30 10-42" stroke="#B08D55" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="-14" cy="-22" rx="10" ry="16" fill="#7C8B6F" transform="rotate(18 -14 -22)"/>
+    <ellipse cx="10" cy="-30" rx="9" ry="15" fill="#B08D55" transform="rotate(-28 10 -30)"/>
+    <ellipse cx="16" cy="-8" rx="9" ry="14" fill="#E9B7A4" transform="rotate(32 16 -8)"/>
+    <circle cx="-2" cy="16" r="7" fill="#C75D3B"/>
+  </g>
+</svg>

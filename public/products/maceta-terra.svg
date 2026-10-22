@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" fill="none">
+  <rect width="400" height="340" fill="#F6E7DE"/>
+  <circle cx="200" cy="158" r="112" fill="#FBF2EC"/>
+  <ellipse cx="200" cy="300" rx="92" ry="11" fill="#E3C3B0" opacity="0.6"/>
+
+  <!-- planta -->
+  <path d="M198 156c-2-30 4-52 18-70" stroke="#4F5D46" stroke-width="6" stroke-linecap="round"/>
+  <path d="M198 160c-12-22-30-36-52-42" stroke="#4F5D46" stroke-width="6" stroke-linecap="round"/>
+  <path d="M202 158c12-18 28-30 48-34" stroke="#4F5D46" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="218" cy="86" rx="14" ry="23" fill="#7C8B6F" transform="rotate(22 218 86)"/>
+  <ellipse cx="146" cy="116" rx="13" ry="21" fill="#4F5D46" transform="rotate(-52 146 116)"/>
+  <ellipse cx="252" cy="124" rx="12" ry="19" fill="#63714F" transform="rotate(48 252 124)"/>
+  <ellipse cx="170" cy="96" rx="11" ry="18" fill="#63714F" transform="rotate(-18 170 96)"/>
+  <ellipse cx="238" cy="98" rx="10" ry="16" fill="#7C8B6F" transform="rotate(38 238 98)"/>
+
+  <!-- plato -->
+  <ellipse cx="200" cy="278" rx="66" ry="12" fill="#A8482B"/>
+  <ellipse cx="200" cy="274" rx="66" ry="12" fill="#C75D3B"/>
+
+  <!-- maceta -->
+  <path d="M146 178h108l-12 96h-84Z" fill="#C75D3B"/>
+  <path d="M146 178h54l-6 96h-36Z" fill="#B04F31"/>
+  <rect x="140" y="166" width="120" height="22" rx="11" fill="#A8482B"/>
+  <rect x="140" y="166" width="60" height="22" rx="11" fill="#8F3D26"/>
+  <!-- textura barro -->
+  <g stroke="#A8482B" stroke-width="2" stroke-linecap="round" opacity="0.5">
+    <path d="M164 216h20M212 228h24M176 248h16M218 256h14"/>
+  </g>
+</svg>

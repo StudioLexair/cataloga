@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" fill="none">
+  <rect width="400" height="340" fill="#F7EDDC"/>
+  <circle cx="200" cy="158" r="116" fill="#FBF3E2"/>
+  <ellipse cx="200" cy="300" rx="86" ry="10" fill="#D9C8AE" opacity="0.55"/>
+
+  <!-- rayos decorativos -->
+  <g stroke="#C9A468" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <path d="M200 22v18M200 276v18M74 158h18M308 158h18"/>
+    <path d="M110 68l13 13M277 235l13 13M290 68l-13 13M123 235l-13 13"/>
+  </g>
+
+  <!-- marco -->
+  <circle cx="200" cy="158" r="86" fill="#C9A468"/>
+  <circle cx="200" cy="158" r="70" fill="#B08D55"/>
+  <!-- espejo -->
+  <circle cx="200" cy="158" r="62" fill="#FBF3E2"/>
+  <!-- reflejo -->
+  <path d="M168 122c14-16 38-22 62-14-18 8-32 20-40 38-8-10-14-18-22-24Z" fill="#EAD9B8"/>
+  <path d="M160 186c18 18 48 24 74 10-22 2-40-4-52-16-6 2-14 4-22 6Z" fill="#EAD9B8"/>
+  <path d="M226 128c8 2 14 8 16 16" stroke="#FFF7E6" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- anillo detalle -->
+  <circle cx="200" cy="158" r="78" stroke="#D4B583" stroke-width="2" stroke-dasharray="2 8"/>
+</svg>

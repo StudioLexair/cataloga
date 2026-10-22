@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 640" fill="none">
+  <defs>
+    <filter id="grain-f" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.1  0 0 0 0 0.08  0 0 0 0 0.06  0 0 0 0.05 0"/>
+    </filter>
+    <linearGradient id="arch-g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EDC4B2"/>
+      <stop offset="1" stop-color="#E9B7A4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- fondo -->
+  <rect width="720" height="640" fill="#F4EDE4"/>
+  <rect y="548" width="720" height="92" fill="#EADCC7"/>
+
+  <!-- sol -->
+  <circle cx="568" cy="152" r="62" fill="#B08D55"/>
+  <circle cx="568" cy="152" r="30" fill="#D4B583"/>
+
+  <!-- gran arco -->
+  <path d="M220 560V320a140 140 0 0 1 280 0v240Z" fill="url(#arch-g)"/>
+  <path d="M262 560V322a98 98 0 0 1 196 0v238Z" fill="#F6E7DE" opacity="0.55"/>
+
+  <!-- arco pequeño decorativo izquierda -->
+  <path d="M64 560V380a52 52 0 0 1 104 0v180Z" fill="#D9C8AE"/>
+
+  <!-- planta -->
+  <g>
+    <path d="M148 420c-2-40 6-74 26-104" stroke="#4F5D46" stroke-width="7" stroke-linecap="round"/>
+    <path d="M150 430c-18-28-42-46-72-56" stroke="#4F5D46" stroke-width="7" stroke-linecap="round"/>
+    <path d="M154 428c22-24 50-38 82-42" stroke="#4F5D46" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="176" cy="308" rx="30" ry="46" fill="#7C8B6F" transform="rotate(18 176 308)"/>
+    <ellipse cx="86" cy="366" rx="28" ry="42" fill="#4F5D46" transform="rotate(-52 86 366)"/>
+    <ellipse cx="232" cy="380" rx="26" ry="40" fill="#63714F" transform="rotate(52 232 380)"/>
+    <ellipse cx="120" cy="330" rx="22" ry="34" fill="#63714F" transform="rotate(-24 120 330)"/>
+    <ellipse cx="212" cy="330" rx="20" ry="30" fill="#7C8B6F" transform="rotate(34 212 330)"/>
+    <rect x="104" y="452" width="112" height="22" rx="11" fill="#A8482B"/>
+    <path d="M112 474h96l-12 74h-72Z" fill="#C75D3B"/>
+    <path d="M112 474h48l-6 74h-30Z" fill="#B04F31"/>
+  </g>
+
+  <!-- sillón -->
+  <g>
+    <ellipse cx="360" cy="556" rx="152" ry="14" fill="#D4B583" opacity="0.55"/>
+    <rect x="232" y="408" width="52" height="122" rx="26" fill="#414E39"/>
+    <rect x="436" y="408" width="52" height="122" rx="26" fill="#414E39"/>
+    <rect x="268" y="306" width="184" height="160" rx="30" fill="#4F5D46"/>
+    <rect x="288" y="326" width="144" height="112" rx="22" fill="#7C8B6F"/>
+    <rect x="244" y="434" width="232" height="76" rx="30" fill="#5F6D52"/>
+    <rect x="268" y="446" width="184" height="52" rx="22" fill="#6B7A5C"/>
+    <rect x="278" y="510" width="16" height="46" rx="8" fill="#B08D55"/>
+    <rect x="426" y="510" width="16" height="46" rx="8" fill="#B08D55"/>
+    <rect x="302" y="352" width="58" height="58" rx="16" fill="#E9B7A4" transform="rotate(-6 331 381)"/>
+    <rect x="386" y="360" width="48" height="48" rx="14" fill="#C75D3B" transform="rotate(8 410 384)"/>
+  </g>
+
+  <!-- lámpara arco -->
+  <g>
+    <ellipse cx="596" cy="548" rx="34" ry="10" fill="#D4B583" opacity="0.6"/>
+    <rect x="582" y="534" width="28" height="14" rx="7" fill="#B08D55"/>
+    <path d="M596 534C596 420 560 366 512 336" stroke="#B08D55" stroke-width="12" stroke-linecap="round"/>
+    <path d="M478 322c18-12 46-6 52 12 4 12-4 24-18 28l-38 8-10-40 14-8Z" fill="#D4B583"/>
+    <ellipse cx="492" cy="356" rx="22" ry="8" fill="#F7EDDC" transform="rotate(10 492 356)"/>
+    <circle cx="502" cy="340" r="7" fill="#FBF7F1"/>
+  </g>
+
+  <!-- ficha de catálogo flotante 1 -->
+  <g transform="rotate(-8 145 180)">
+    <rect x="64" y="88" width="168" height="212" rx="18" fill="#FBF7F1"/>
+    <rect x="64" y="88" width="168" height="212" rx="18" fill="none" stroke="#1A1410" stroke-opacity="0.08" stroke-width="2"/>
+    <rect x="80" y="104" width="136" height="96" rx="12" fill="#F6E7DE"/>
+    <rect x="118" y="122" width="60" height="60" rx="30" fill="#C75D3B"/>
+    <rect x="80" y="216" width="100" height="10" rx="5" fill="#E8DCCB"/>
+    <rect x="80" y="236" width="72" height="10" rx="5" fill="#E8DCCB"/>
+    <rect x="80" y="262" width="64" height="22" rx="11" fill="#1A1410"/>
+  </g>
+
+  <!-- ficha de catálogo flotante 2 -->
+  <g transform="rotate(7 600 440)">
+    <rect x="520" y="344" width="160" height="204" rx="18" fill="#FBF7F1"/>
+    <rect x="520" y="344" width="160" height="204" rx="18" fill="none" stroke="#1A1410" stroke-opacity="0.08" stroke-width="2"/>
+    <rect x="536" y="360" width="128" height="88" rx="12" fill="#EDEFE7"/>
+    <rect x="572" y="378" width="56" height="52" rx="12" fill="#4F5D46"/>
+    <rect x="536" y="464" width="92" height="10" rx="5" fill="#E8DCCB"/>
+    <rect x="536" y="484" width="64" height="10" rx="5" fill="#E8DCCB"/>
+    <g fill="#B08D55">
+      <path d="M536 512l3 6 6 1-4.5 4 1 6-5.5-3-5.5 3 1-6-4.5-4 6-1 3-6z"/>
+      <path d="M556 512l3 6 6 1-4.5 4 1 6-5.5-3-5.5 3 1-6-4.5-4 6-1 3-6z"/>
+      <path d="M576 512l3 6 6 1-4.5 4 1 6-5.5-3-5.5 3 1-6-4.5-4 6-1 3-6z"/>
+    </g>
+  </g>
+
+  <!-- destellos -->
+  <g fill="#B08D55">
+    <path d="M636 84l5 13 13 5-13 5-5 13-5-13-13-5 13-5 5-13z"/>
+    <path d="M84 48l3.5 9 9 3.5-9 3.5-3.5 9-3.5-9-9-3.5 9-3.5L84 48z"/>
+    <path d="M330 96l3 8 8 3-8 3-3 8-3-8-8-3 8-3 3-8z"/>
+  </g>
+
+  <rect width="720" height="640" filter="url(#grain-f)" opacity="0.55"/>
+</svg>
