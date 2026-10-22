@@ -35,7 +35,7 @@ export const products: Product[] = [
     materials: "Lino 100% natural, espuma HR, eucalipto certificado FSC",
     dimensions: "220 × 92 × 78 cm · asiento 48 cm",
     finishes: ["Arena", "Terracota", "Verde salvia"],
-    art: "/products/sofa-liria.svg",
+    art: "/products/sofa-liria.jpg",
     tint: "#F6E7DE",
   },
   {
@@ -49,7 +49,7 @@ export const products: Product[] = [
     materials: "Bouclé de poliéster reciclado, roble macizo",
     dimensions: "78 × 80 × 84 cm · asiento 42 cm",
     finishes: ["Crudo", "Gris humo", "Mantequilla"],
-    art: "/products/sillon-bruma.svg",
+    art: "/products/sillon-bruma.jpg",
     tint: "#F4EDE4",
   },
   {
@@ -64,7 +64,7 @@ export const products: Product[] = [
     materials: "Latón con acabado mate, cúpula de lino, mármol de base",
     dimensions: "Alto 165 cm · alcance 95 cm · cable 2.2 m",
     finishes: ["Latón mate", "Negro tinta"],
-    art: "/products/lampara-arco.svg",
+    art: "/products/lampara-arco.jpg",
     tint: "#F7EDDC",
   },
   {
@@ -78,7 +78,7 @@ export const products: Product[] = [
     materials: "Roble europeo macizo, aceite natural de bajo VOC",
     dimensions: "180 × 90 × 75 cm · tablero 3.2 cm",
     finishes: ["Roble natural", "Roble tostado"],
-    art: "/products/mesa-perla.svg",
+    art: "/products/mesa-perla.jpg",
     tint: "#F1E7D8",
   },
   {
@@ -93,7 +93,7 @@ export const products: Product[] = [
     materials: "Cerámica de alta temperatura, esmalte mate reactivo",
     dimensions: "Ø 18 cm × alto 32 cm",
     finishes: ["Arena", "Arcilla", "Marfil"],
-    art: "/products/jarron-duna.svg",
+    art: "/products/jarron-duna.jpg",
     tint: "#F6E7DE",
   },
   {
@@ -107,7 +107,7 @@ export const products: Product[] = [
     materials: "Latón cepillado, espejo de 5 mm con bisel",
     dimensions: "Ø 80 cm · profundidad 3.5 cm",
     finishes: ["Latón", "Cobre envejecido"],
-    art: "/products/espejo-solar.svg",
+    art: "/products/espejo-solar.jpg",
     tint: "#F7EDDC",
   },
   {
@@ -121,7 +121,7 @@ export const products: Product[] = [
     materials: "Nogal americano, acero pavonado",
     dimensions: "160 × 32 × 190 cm",
     finishes: ["Nogal", "Negro tinta"],
-    art: "/products/estanteria-cima.svg",
+    art: "/products/estanteria-cima.jpg",
     tint: "#F1E7D8",
   },
   {
@@ -135,7 +135,7 @@ export const products: Product[] = [
     materials: "Terciopelo de algodón, espuma HR, haya torneada",
     dimensions: "48 × 54 × 82 cm · asiento 46 cm",
     finishes: ["Verde musgo", "Terracota", "Azul noche"],
-    art: "/products/silla-nube.svg",
+    art: "/products/silla-nube.jpg",
     tint: "#EDEFE7",
   },
   {
@@ -149,7 +149,7 @@ export const products: Product[] = [
     materials: "Barro cocido artesanal, esmalte exterior resistente a heladas",
     dimensions: "Ø 34 cm × alto 30 cm",
     finishes: ["Terracota", "Blanco cal", "Verde oliva"],
-    art: "/products/maceta-terra.svg",
+    art: "/products/maceta-terra.jpg",
     tint: "#F6E7DE",
   },
 ];

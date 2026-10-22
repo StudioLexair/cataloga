@@ -90,15 +90,15 @@ select c.id, 'casa-lum', s.sort_order, s.name, s.category, s.price, s.blurb, s.b
 from catalogs c
 join businesses b on b.id = c.business_id
 cross join (values
-  (1, 'Sofá Liria', 'Salón', 1290, 'Sofá modular de tres plazas en lino arena.', 'Top ventas', 'Lino 100% natural, espuma HR, eucalipto FSC', '220 × 92 × 78 cm', '["Arena","Terracota","Verde salvia"]', '/products/sofa-liria.svg', '#F6E7DE'),
-  (2, 'Sillón Bruma', 'Salón', 640, 'Sillón lounge de bouclé con patas de roble.', null, 'Bouclé reciclado, roble macizo', '78 × 80 × 84 cm', '["Crudo","Gris humo","Mantequilla"]', '/products/sillon-bruma.svg', '#F4EDE4'),
-  (3, 'Lámpara Arco', 'Iluminación', 289, 'Lámpara de arco en latón mate con cúpula de lino.', 'Nuevo', 'Latón mate, lino, mármol', 'Alto 165 cm', '["Latón mate","Negro tinta"]', '/products/lampara-arco.svg', '#F7EDDC'),
-  (4, 'Mesa Perla', 'Comedor', 870, 'Mesa de comedor en roble macizo para 6.', null, 'Roble europeo, aceite natural', '180 × 90 × 75 cm', '["Roble natural","Roble tostado"]', '/products/mesa-perla.svg', '#F1E7D8'),
-  (5, 'Jarrón Duna', 'Decoración', 120, 'Jarrón cerámico esmaltado, torneado a mano.', 'Edición limitada', 'Cerámica alta temperatura', 'Ø 18 cm × 32 cm', '["Arena","Arcilla","Marfil"]', '/products/jarron-duna.svg', '#F6E7DE'),
-  (6, 'Espejo Solar', 'Decoración', 210, 'Espejo de pared con marco de latón cepillado.', null, 'Latón cepillado, espejo 5 mm', 'Ø 80 cm', '["Latón","Cobre envejecido"]', '/products/espejo-solar.svg', '#F7EDDC'),
-  (7, 'Estantería Cima', 'Salón', 540, 'Estantería modular en nogal americano.', null, 'Nogal, acero pavonado', '160 × 32 × 190 cm', '["Nogal","Negro tinta"]', '/products/estanteria-cima.svg', '#F1E7D8'),
-  (8, 'Silla Nube', 'Comedor', 190, 'Silla tapizada en terciopelo verde musgo.', null, 'Terciopelo de algodón, haya', '48 × 54 × 82 cm', '["Verde musgo","Terracota","Azul noche"]', '/products/silla-nube.svg', '#EDEFE7'),
-  (9, 'Maceta Terra', 'Exterior', 95, 'Maceta de barro cocido con plato incluido.', null, 'Barro cocido artesanal', 'Ø 34 cm × 30 cm', '["Terracota","Blanco cal","Verde oliva"]', '/products/maceta-terra.svg', '#F6E7DE')
+  (1, 'Sofá Liria', 'Salón', 1290, 'Sofá modular de tres plazas en lino arena.', 'Top ventas', 'Lino 100% natural, espuma HR, eucalipto FSC', '220 × 92 × 78 cm', '["Arena","Terracota","Verde salvia"]', '/products/sofa-liria.jpg', '#F6E7DE'),
+  (2, 'Sillón Bruma', 'Salón', 640, 'Sillón lounge de bouclé con patas de roble.', null, 'Bouclé reciclado, roble macizo', '78 × 80 × 84 cm', '["Crudo","Gris humo","Mantequilla"]', '/products/sillon-bruma.jpg', '#F4EDE4'),
+  (3, 'Lámpara Arco', 'Iluminación', 289, 'Lámpara de arco en latón mate con cúpula de lino.', 'Nuevo', 'Latón mate, lino, mármol', 'Alto 165 cm', '["Latón mate","Negro tinta"]', '/products/lampara-arco.jpg', '#F7EDDC'),
+  (4, 'Mesa Perla', 'Comedor', 870, 'Mesa de comedor en roble macizo para 6.', null, 'Roble europeo, aceite natural', '180 × 90 × 75 cm', '["Roble natural","Roble tostado"]', '/products/mesa-perla.jpg', '#F1E7D8'),
+  (5, 'Jarrón Duna', 'Decoración', 120, 'Jarrón cerámico esmaltado, torneado a mano.', 'Edición limitada', 'Cerámica alta temperatura', 'Ø 18 cm × 32 cm', '["Arena","Arcilla","Marfil"]', '/products/jarron-duna.jpg', '#F6E7DE'),
+  (6, 'Espejo Solar', 'Decoración', 210, 'Espejo de pared con marco de latón cepillado.', null, 'Latón cepillado, espejo 5 mm', 'Ø 80 cm', '["Latón","Cobre envejecido"]', '/products/espejo-solar.jpg', '#F7EDDC'),
+  (7, 'Estantería Cima', 'Salón', 540, 'Estantería modular en nogal americano.', null, 'Nogal, acero pavonado', '160 × 32 × 190 cm', '["Nogal","Negro tinta"]', '/products/estanteria-cima.jpg', '#F1E7D8'),
+  (8, 'Silla Nube', 'Comedor', 190, 'Silla tapizada en terciopelo verde musgo.', null, 'Terciopelo de algodón, haya', '48 × 54 × 82 cm', '["Verde musgo","Terracota","Azul noche"]', '/products/silla-nube.jpg', '#EDEFE7'),
+  (9, 'Maceta Terra', 'Exterior', 95, 'Maceta de barro cocido con plato incluido.', null, 'Barro cocido artesanal', 'Ø 34 cm × 30 cm', '["Terracota","Blanco cal","Verde oliva"]', '/products/maceta-terra.jpg', '#F6E7DE')
 ) as s(sort_order, name, category, price, blurb, badge, materials, dimensions, finishes, art_url, tint)
 where b.slug = 'casa-lum' and c.slug = 'oi-2026'
 on conflict do nothing;

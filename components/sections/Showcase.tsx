@@ -42,7 +42,7 @@ export default function Showcase() {
           <div>
             <Reveal>
               <p className="eyebrow !text-brass-light">
-                <IconSparkle className="w-3.5 h-3.5" /> El demo
+                <IconSparkle className="w-3.5 h-3.5" /> La referencia
               </p>
               <h2 className="mt-4 font-display text-[clamp(2.1rem,4.2vw,3.2rem)] leading-[1.08]">
                 Así se ve un catálogo{" "}
@@ -52,9 +52,8 @@ export default function Showcase() {
               </h2>
               <p className="mt-5 text-[16.5px] leading-relaxed text-paper/75 max-w-lg">
                 Navegación fluida, fichas de producto ricas en detalles y un
-                botón de pedido siempre a la vista. Entra al catálogo
-                representativo de <strong className="text-paper">Casa Lum</strong> y
-                compruébalo tú mismo.
+                botón de pedido siempre a la vista. Explora el catálogo
+                de referencia de <strong className="text-paper">Casa Lum</strong> y descubre el nivel de resultado que entregamos.
               </p>
             </Reveal>
 
@@ -82,12 +81,12 @@ export default function Showcase() {
             <Reveal delay={2}>
               <div className="mt-9 flex flex-wrap items-center gap-3">
                 <a href="/catalogo" className="btn-primary group">
-                  Explorar el catálogo demo
+                  Ver catálogo de referencia
                   <IconArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
                 </a>
                 <span className="inline-flex items-center gap-1.5 text-[13px] text-paper/60">
                   <IconStar className="w-3.5 h-3.5 text-brass-light" />
-                  Sin registro · 2 minutos de exploración
+                  Muestra de trabajo · Casa Lum
                 </span>
               </div>
             </Reveal>

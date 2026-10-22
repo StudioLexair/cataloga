@@ -7,7 +7,7 @@ Este repositorio contiene el proyecto comercial completo:
 
 1. **Landing de marketing** (`/`) — página comercial con hero, métricas,
    funcionalidades, proceso, testimonios, precios y FAQ.
-2. **Catálogo demo interactivo** (`/catalogo`) — catálogo representativo
+2. **Catálogo de referencia interactivo** (`/catalogo`) — catálogo representativo
    *«Casa Lum · Muebles de autor»* con filtros, búsqueda, fichas de producto y
    consulta directa por WhatsApp. Es la demo que se muestra a clientes
    potenciales.
@@ -22,7 +22,7 @@ Este repositorio contiene el proyecto comercial completo:
 | Página     | Ruta         | Qué muestra                                  |
 | ---------- | ------------ | -------------------------------------------- |
 | Marketing  | `/`          | Página comercial del sistema Cataloga         |
-| Catálogo   | `/catalogo`  | Catálogo demo Casa Lum (colección OI 2026)   |
+| Catálogo   | `/catalogo`  | Catálogo de referencia Casa Lum (colección OI 2026)   |
 
 ## Planes (pago único, en CUP)
 
@@ -54,14 +54,14 @@ Este repositorio contiene el proyecto comercial completo:
 app/
   layout.tsx            # Tipografías (Fraunces/Inter), metadata, OG image
   page.tsx              # Landing de marketing
-  catalogo/page.tsx     # Catálogo demo (Casa Lum)
+  catalogo/page.tsx     # Catálogo de referencia (Casa Lum)
   opengraph-image.tsx   # Imagen social generada (1200×630)
   icon.svg              # Favicon vectorial
 components/
   SiteNav.tsx · SiteFooter.tsx · Logo.tsx · Reveal.tsx · icons.tsx
   CatalogClient.tsx     # Filtros, búsqueda, modal de detalle, WhatsApp
   sections/             # Hero, Stats, Features, HowItWorks, Showcase…
-data/catalog.ts         # Productos del catálogo demo
+data/catalog.ts         # Productos del catálogo de referencia
 lib/supabase.ts         # Capa de datos preparada para Supabase
 public/products/        # 9 ilustraciones SVG de producto
 public/art/             # Hero, mockups, banner, texturas, sello
@@ -100,7 +100,7 @@ vercel --prod
 
 ## Roadmap «sistema»
 
-- [x] Landing comercial + catálogo demo
+- [x] Landing comercial + catálogo de referencia
 - [x] Diseño vectorial completo (logo, iconos, ilustraciones, OG)
 - [x] Capa de datos con fallback local
 - [ ] Conexión en vivo a Supabase (esquema incluido)
@@ -109,4 +109,5 @@ vercel --prod
 
 ---
 
-Hecho con obsesión por el detalle — **Studio Lexair**
+Desarrollado por **[Studio Lexair](https://studiolexair-web.vercel.app/)** — desarrollo digital a tu medida.  
+Imágenes de producto generadas con IA para esta muestra comercial.

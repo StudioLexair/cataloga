@@ -11,6 +11,7 @@ import Testimonials from "@/components/sections/Testimonials";
 import Pricing from "@/components/sections/Pricing";
 import Faq from "@/components/sections/Faq";
 import FinalCta from "@/components/sections/FinalCta";
+import StudioLexair from "@/components/sections/StudioLexair";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <Pricing />
         <Faq />
         <FinalCta />
+        <StudioLexair />
       </main>
       <SiteFooter />
     </>

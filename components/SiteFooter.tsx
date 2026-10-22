@@ -13,7 +13,7 @@ const columns = [
       { label: "Funciones", href: "#producto" },
       { label: "Cómo funciona", href: "#como-funciona" },
       { label: "Precios", href: "#precios" },
-      { label: "Catálogo demo", href: "/catalogo" },
+      { label: "Catálogo de referencia", href: "/catalogo" },
     ],
   },
   {
@@ -131,8 +131,16 @@ export default function SiteFooter() {
 
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <p className="text-[12.5px] text-paper/50">
-            © {new Date().getFullYear()} Cataloga · Un producto de Studio Lexair.
-            Todos los derechos reservados.
+            © {new Date().getFullYear()} Cataloga · Un producto de{" "}
+            <a
+              href="https://studiolexair-web.vercel.app/"
+              target="_blank"
+              rel="noopener"
+              className="link-underline font-medium text-brass-light"
+            >
+              Studio Lexair
+            </a>
+            . Todos los derechos reservados.
           </p>
           <p className="text-[12.5px] text-paper/50 flex items-center gap-2">
             <IconSparkle className="w-3.5 h-3.5 text-brass-light" />

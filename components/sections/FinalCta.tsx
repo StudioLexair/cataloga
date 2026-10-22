@@ -33,7 +33,7 @@ export default function FinalCta() {
           <div className="relative max-w-2xl">
             <Reveal>
               <p className="inline-flex items-center gap-2 rounded-full border border-white/30 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-white/90">
-                <IconSparkle className="w-3.5 h-3.5" /> Agenda de esta semana abierta
+                <IconSparkle className="w-3.5 h-3.5" /> Cotizaciones abiertas para este mes
               </p>
             </Reveal>
 
@@ -46,9 +46,7 @@ export default function FinalCta() {
 
             <Reveal delay={2}>
               <p className="mt-6 max-w-xl text-[17px] leading-relaxed text-white/85">
-                Agenda 15 minutos y te mostramos cómo quedaría tu negocio en
-                Cataloga — con tus productos, tu marca y tu link funcionando
-                desde el primer día.
+                Escríbenos y te enviamos una propuesta con el plan, el alcance y el precio por escrito. Tu catálogo se compra una sola vez y el sistema queda a tu nombre.
               </p>
             </Reveal>
 
@@ -58,14 +56,14 @@ export default function FinalCta() {
                   href="mailto:studio.lexair@gmail.com?subject=Quiero%20mi%20catálogo%20Cataloga"
                   className="btn inline-flex bg-white text-terra-dark hover:-translate-y-0.5 hover:bg-white/95 shadow-lift"
                 >
-                  Solicitar mi demo gratuita
+                  Cotizar mi catálogo
                   <IconArrowRight className="w-4 h-4" />
                 </a>
                 <a
                   href="/catalogo"
                   className="btn inline-flex border border-white/35 text-white hover:-translate-y-0.5 hover:bg-white/10"
                 >
-                  Explorar el catálogo demo
+                  Ver catálogo de referencia
                 </a>
               </div>
             </Reveal>
@@ -76,7 +74,7 @@ export default function FinalCta() {
                   <IconShield className="w-4 h-4" /> 30 días de garantía
                 </span>
                 <span className="inline-flex items-center gap-2">
-                  <IconStar className="w-4 h-4" /> Sin permanencia
+                  <IconStar className="w-4 h-4" /> Sin cuotas mensuales
                 </span>
                 <span className="inline-flex items-center gap-2">
                   <IconSparkle className="w-4 h-4" /> Configuración incluida

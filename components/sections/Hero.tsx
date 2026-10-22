@@ -73,8 +73,8 @@ export default function Hero() {
                 <IconArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
               </a>
               <a href="#cta-final" className="btn-ghost group">
-                <IconPlay className="w-5 h-5 text-terra" />
-                Solicitar demo gratuita
+                <IconArrowRight className="w-5 h-5 text-terra" />
+                Solicitar cotización
               </a>
             </div>
           </Reveal>
@@ -107,8 +107,8 @@ export default function Hero() {
           <div className="relative mx-auto w-full max-w-[560px]">
             <div className="grain overflow-hidden rounded-5xl border border-line bg-cream shadow-lift">
               <img
-                src="/art/hero-scene.svg"
-                alt="Escena editorial de un catálogo digital Cataloga con muebles de diseño"
+                src="/hero-interior.jpg"
+                alt="Interior premium con muebles de diseño — muestra del estilo Cataloga"
                 className="w-full h-auto"
                 width={720}
                 height={640}
@@ -140,7 +140,7 @@ export default function Hero() {
             <div className="animate-floatSlow absolute -right-2 sm:-right-8 bottom-14 rounded-2xl border border-line bg-white/95 shadow-lift p-2.5 w-[178px]">
               <div className="rounded-xl overflow-hidden bg-terra-wash">
                 <img loading="lazy" decoding="async"
-                  src="/products/lampara-arco.svg"
+                  src="/products/lampara-arco.jpg"
                   alt="Lámpara Arco"
                   className="w-full h-auto"
                 />

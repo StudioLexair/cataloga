@@ -37,7 +37,7 @@ function rowToProduct(row: CatalogRow): Product {
     materials: row.materials ?? "",
     dimensions: row.dimensions ?? "",
     finishes: row.finishes ?? [],
-    art: row.art_url ?? "/products/sofa-liria.svg",
+    art: row.art_url ?? "/products/sofa-liria.jpg",
     tint: row.tint ?? "#F4EDE4",
   };
 }
@@ -133,7 +133,7 @@ export default function CatalogClient() {
               <div>
                 <div className="inline-flex items-center gap-2 rounded-full border border-brass/40 bg-brass/10 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.18em] text-brass">
                   <IconSparkle className="w-3.5 h-3.5" />
-                  Catálogo demo · Creado con Cataloga
+                  Catálogo de referencia · Creado por Cataloga
                 </div>
                 <h1 className="mt-6 font-display text-[clamp(2.4rem,5.4vw,3.9rem)] leading-[1.03] text-ink">
                   Casa Lum
@@ -164,7 +164,7 @@ export default function CatalogClient() {
 
               <div className="relative">
                 <img
-                  src="/art/catalog-banner.svg"
+                  src="/hero-interior.jpg"
                   alt="Colección Otoño Invierno 2026 de Casa Lum"
                   className="w-full h-auto rounded-4xl border border-line shadow-lift"
                 />
@@ -341,7 +341,7 @@ export default function CatalogClient() {
             />
             <div className="relative">
               <p className="eyebrow">
-                <IconSparkle className="w-3.5 h-3.5" /> Esto fue un catálogo Cataloga
+                <IconSparkle className="w-3.5 h-3.5" /> Así se ve trabajar con Cataloga
               </p>
               <h2 className="mx-auto mt-4 max-w-2xl font-display text-[clamp(1.9rem,3.6vw,2.7rem)] leading-[1.1] text-ink">
                 ¿Te gustaría un catálogo así{" "}
@@ -378,7 +378,7 @@ export default function CatalogClient() {
             </span>
           </div>
           <p className="text-[12px] text-ink-mute">
-            Catálogo demo «Casa Lum» · Colección Otoño/Invierno 2026 · Un
+            Catálogo de referencia «Casa Lum» · Colección Otoño/Invierno 2026 · Un
             ejemplo de lo que tu negocio puede tener.
           </p>
         </div>

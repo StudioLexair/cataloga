@@ -73,7 +73,7 @@ export default function Pillars() {
         <Reveal>
           <div className="mt-12 flex justify-center">
             <a href="/catalogo" className="btn-ink group">
-              Mira un catálogo real en acción
+              Mira una muestra de nuestro trabajo
               <IconArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
             </a>
           </div>
