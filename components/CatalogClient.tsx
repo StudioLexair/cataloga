@@ -107,8 +107,8 @@ export default function CatalogClient() {
             className="inline-flex items-center gap-2.5 text-[13px] font-semibold text-ink-soft hover:text-ink transition-colors"
           >
             <LogoMark size={32} />
-            <span className="hidden sm:inline">Volver a Vitrina</span>
-            <span className="sm:hidden">Vitrina</span>
+            <span className="hidden sm:inline">Volver a Cataloga</span>
+            <span className="sm:hidden">Cataloga</span>
           </a>
           <div className="flex items-center gap-2.5">
             <a
@@ -133,7 +133,7 @@ export default function CatalogClient() {
               <div>
                 <div className="inline-flex items-center gap-2 rounded-full border border-brass/40 bg-brass/10 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.18em] text-brass">
                   <IconSparkle className="w-3.5 h-3.5" />
-                  Catálogo demo · Creado con Vitrina
+                  Catálogo demo · Creado con Cataloga
                 </div>
                 <h1 className="mt-6 font-display text-[clamp(2.4rem,5.4vw,3.9rem)] leading-[1.03] text-ink">
                   Casa Lum
@@ -267,7 +267,7 @@ export default function CatalogClient() {
                       className="aspect-[4/3.4] w-full"
                       style={{ backgroundColor: p.tint }}
                     >
-                      <img
+                      <img loading="lazy" decoding="async"
                         src={p.art}
                         alt={p.name}
                         className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.06]"
@@ -341,7 +341,7 @@ export default function CatalogClient() {
             />
             <div className="relative">
               <p className="eyebrow">
-                <IconSparkle className="w-3.5 h-3.5" /> Esto fue un catálogo Vitrina
+                <IconSparkle className="w-3.5 h-3.5" /> Esto fue un catálogo Cataloga
               </p>
               <h2 className="mx-auto mt-4 max-w-2xl font-display text-[clamp(1.9rem,3.6vw,2.7rem)] leading-[1.1] text-ink">
                 ¿Te gustaría un catálogo así{" "}
@@ -360,7 +360,7 @@ export default function CatalogClient() {
                   <IconArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
                 </a>
                 <a href="/#producto" className="btn-ink">
-                  Conocer Vitrina
+                  Conocer Cataloga
                 </a>
               </div>
             </div>
@@ -374,7 +374,7 @@ export default function CatalogClient() {
           <div className="flex items-center gap-2.5">
             <LogoMark size={30} />
             <span className="font-display text-[15px] tracking-[0.26em] text-ink">
-              VITRINA
+              CATALOGA
             </span>
           </div>
           <p className="text-[12px] text-ink-mute">
@@ -422,7 +422,7 @@ export default function CatalogClient() {
                 className="relative min-h-[260px] sm:min-h-full"
                 style={{ backgroundColor: selected.tint }}
               >
-                <img
+                <img loading="lazy" decoding="async"
                   src={selected.art}
                   alt={selected.name}
                   className="h-full w-full object-cover"

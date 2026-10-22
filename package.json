@@ -1,8 +1,8 @@
 {
-  "name": "vitrina-catalogos",
+  "name": "cataloga",
   "version": "1.0.0",
   "private": true,
-  "description": "Vitrina — Sistema de catálogos digitales premium para negocios. Landing comercial + catálogo demo interactivo.",
+  "description": "Cataloga — Sistema de catálogos digitales premium para negocios. Landing comercial + catálogo demo interactivo.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

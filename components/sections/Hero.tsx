@@ -108,7 +108,7 @@ export default function Hero() {
             <div className="grain overflow-hidden rounded-5xl border border-line bg-cream shadow-lift">
               <img
                 src="/art/hero-scene.svg"
-                alt="Escena editorial de un catálogo digital Vitrina con muebles de diseño"
+                alt="Escena editorial de un catálogo digital Cataloga con muebles de diseño"
                 className="w-full h-auto"
                 width={720}
                 height={640}
@@ -139,7 +139,7 @@ export default function Hero() {
             {/* tarjeta flotante: producto */}
             <div className="animate-floatSlow absolute -right-2 sm:-right-8 bottom-14 rounded-2xl border border-line bg-white/95 shadow-lift p-2.5 w-[178px]">
               <div className="rounded-xl overflow-hidden bg-terra-wash">
-                <img
+                <img loading="lazy" decoding="async"
                   src="/products/lampara-arco.svg"
                   alt="Lámpara Arco"
                   className="w-full h-auto"

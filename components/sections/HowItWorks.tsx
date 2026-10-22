@@ -49,7 +49,7 @@ export default function HowItWorks() {
               </h2>
               <p className="mt-5 text-[17px] leading-relaxed text-ink-soft">
                 Nosotros ponemos el diseño, la tecnología y el soporte. Tú
-                pones tus productos. El resto lo hace Vitrina.
+                pones tus productos. El resto lo hace Cataloga.
               </p>
               <a href="#cta-final" className="btn-primary mt-8">
                 Empezar mi catálogo

@@ -1,6 +1,6 @@
-# Vitrina — Sistema de catálogos digitales para negocios
+# Cataloga — Sistema de catálogos digitales para negocios
 
-**Vitrina** convierte los productos de un negocio en una experiencia de compra
+**Cataloga** convierte los productos de un negocio en una experiencia de compra
 premium: un link, una marca, pedidos por WhatsApp y métricas en tiempo real.
 
 Este repositorio contiene el proyecto comercial completo:
@@ -21,7 +21,7 @@ Este repositorio contiene el proyecto comercial completo:
 
 | Página     | Ruta         | Qué muestra                                  |
 | ---------- | ------------ | -------------------------------------------- |
-| Marketing  | `/`          | Página comercial del sistema Vitrina         |
+| Marketing  | `/`          | Página comercial del sistema Cataloga         |
 | Catálogo   | `/catalogo`  | Catálogo demo Casa Lum (colección OI 2026)   |
 
 ## Planes (pago único, en CUP)

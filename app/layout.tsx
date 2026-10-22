@@ -22,10 +22,10 @@ const sans = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vitrina-catalogos.vercel.app"),
+  metadataBase: new URL("https://cataloga.vercel.app"),
   title: {
-    default: "Vitrina — Catálogos digitales que venden por ti",
-    template: "%s · Vitrina",
+    default: "Cataloga — Catálogos digitales que venden por ti",
+    template: "%s · Cataloga",
   },
   description:
     "El sistema de catálogos digitales premium para negocios. Convierte tus productos en una experiencia de compra: un link, tu marca, pedidos por WhatsApp y métricas en tiempo real.",
@@ -35,20 +35,20 @@ export const metadata: Metadata = {
     "catálogo online",
     "marketing digital",
     "e-commerce",
-    "Vitrina",
+    "Cataloga",
   ],
   authors: [{ name: "Studio Lexair" }],
   openGraph: {
     type: "website",
     locale: "es_ES",
-    siteName: "Vitrina",
-    title: "Vitrina — Catálogos digitales que venden por ti",
+    siteName: "Cataloga",
+    title: "Cataloga — Catálogos digitales que venden por ti",
     description:
       "Convierte tus productos en una experiencia de compra premium. Un solo link para mostrar tu marca, recibir pedidos y medir cada visita.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vitrina — Catálogos digitales que venden por ti",
+    title: "Cataloga — Catálogos digitales que venden por ti",
     description:
       "Catálogos digitales premium para negocios que quieren vender mejor.",
   },

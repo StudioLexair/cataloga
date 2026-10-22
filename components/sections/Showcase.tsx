@@ -22,18 +22,18 @@ export default function Showcase() {
         <div className="grid lg:grid-cols-2 gap-14 items-center">
           <Reveal>
             <div className="relative mx-auto w-full max-w-[600px]">
-              <img
+              <img loading="lazy" decoding="async"
                 src="/art/device-mockup.svg"
-                alt="Mockup de un catálogo Vitrina en laptop y teléfono"
+                alt="Mockup de un catálogo Cataloga en laptop y teléfono"
                 className="w-full h-auto drop-shadow-2xl"
                 width={640}
                 height={480}
               />
 
               {/* sello */}
-              <img
+              <img loading="lazy" decoding="async"
                 src="/art/stamp-seal.svg"
-                alt="Garantía Vitrina: 30 días sin riesgo"
+                alt="Garantía Cataloga: 30 días sin riesgo"
                 className="animate-floatSlow absolute -left-2 bottom-2 w-24 sm:w-28"
               />
             </div>
@@ -47,7 +47,7 @@ export default function Showcase() {
               <h2 className="mt-4 font-display text-[clamp(2.1rem,4.2vw,3.2rem)] leading-[1.08]">
                 Así se ve un catálogo{" "}
                 <span className="font-displayItal italic text-terra-light">
-                  Vitrina en acción
+                  Cataloga en acción
                 </span>
               </h2>
               <p className="mt-5 text-[16.5px] leading-relaxed text-paper/75 max-w-lg">

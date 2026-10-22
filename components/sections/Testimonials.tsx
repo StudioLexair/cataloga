@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     quote:
-      "Lo que más me sorprendió fue el panel: sé qué vinos miran, a qué hora y desde qué ciudad. Vitrina nos dice dónde está la demanda antes de comprar inventario.",
+      "Lo que más me sorprendió fue el panel: sé qué vinos miran, a qué hora y desde qué ciudad. Cataloga nos dice dónde está la demanda antes de comprar inventario.",
     name: "Ana Paredes",
     role: "Directora · Bodega Sur",
     avatar: "/avatars/avatar-3.svg",
@@ -40,7 +40,7 @@ export default function Testimonials() {
             <h2 className="mt-4 font-display text-[clamp(2.1rem,4.2vw,3.2rem)] leading-[1.08] text-ink">
               Negocios que ya venden{" "}
               <span className="font-displayItal italic text-terra">
-                con Vitrina
+                con Cataloga
               </span>
             </h2>
           </div>
@@ -66,7 +66,7 @@ export default function Testimonials() {
                 </blockquote>
                 <div className="mt-6 flex items-center justify-between">
                   <figcaption className="flex items-center gap-3">
-                    <img
+                    <img loading="lazy" decoding="async"
                       src={t.avatar}
                       alt={`Retrato de ${t.name}`}
                       className="h-11 w-11 rounded-full border border-line"

@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none">
-  <circle cx="48" cy="48" r="48" fill="#F6E7DE"/>
-  <path d="M48 78c-16 0-28-6-28-14 0-6 4-10 10-12 4-2 8-2 18-2s14 0 18 2c6 2 10 6 10 12 0 8-12 14-28 14Z" fill="#C75D3B"/>
-  <circle cx="48" cy="42" r="17" fill="#E8B692"/>
-  <path d="M31 42c0-12 7-20 17-20s17 8 17 20c0-4-4-6-8-7-3-1-5-3-9-3s-7 2-9 3c-4 1-8 3-8 7Z" fill="#3B2A20"/>
-  <path d="M31 42c-3 1-5 4-5 8 2-2 4-3 6-3l-1-5ZM65 42c3 1 5 4 5 8-2-2-4-3-6-3l1-5Z" fill="#3B2A20"/>
-  <circle cx="42" cy="43" r="1.8" fill="#3B2A20"/>
-  <circle cx="54" cy="43" r="1.8" fill="#3B2A20"/>
-  <path d="M44 50c2 1.6 6 1.6 8 0" stroke="#B0674B" stroke-width="1.6" stroke-linecap="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none"><circle cx="48" cy="48" r="48" fill="#F6E7DE"/><path d="M48 78c-16 0-28-6-28-14 0-6 4-10 10-12 4-2 8-2 18-2s14 0 18 2c6 2 10 6 10 12 0 8-12 14-28 14Z" fill="#C75D3B"/><circle cx="48" cy="42" r="17" fill="#E8B692"/><path d="M31 42c0-12 7-20 17-20s17 8 17 20c0-4-4-6-8-7-3-1-5-3-9-3s-7 2-9 3c-4 1-8 3-8 7Z" fill="#3B2A20"/><path d="M31 42c-3 1-5 4-5 8 2-2 4-3 6-3l-1-5ZM65 42c3 1 5 4 5 8-2-2-4-3-6-3l1-5Z" fill="#3B2A20"/><circle cx="42" cy="43" r="1.8" fill="#3B2A20"/><circle cx="54" cy="43" r="1.8" fill="#3B2A20"/><path d="M44 50c2 1.6 6 1.6 8 0" stroke="#B0674B" stroke-width="1.6" stroke-linecap="round"/></svg>

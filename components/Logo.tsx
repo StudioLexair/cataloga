@@ -36,11 +36,11 @@ export function LogoLockup({ light = false }: { light?: boolean }) {
         className="transition-transform duration-300 group-hover:-rotate-6"
       />
       <span
-        className={`font-display text-[19px] font-semibold tracking-[0.28em] ${
+        className={`font-display text-[16px] sm:text-[18px] font-semibold tracking-[0.18em] ${
           light ? "text-paper" : "text-ink"
         }`}
       >
-        VITRINA
+        CATALOGA
       </span>
     </a>
   );

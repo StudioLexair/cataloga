@@ -80,7 +80,7 @@ export default function LogoMarquee() {
     <section className="py-14 border-y border-line/70 bg-cream/50 overflow-hidden">
       <div className="container-site">
         <p className="text-center text-[11px] font-semibold uppercase tracking-[0.24em] text-ink-mute">
-          Equipos que ya venden con Vitrina
+          Equipos que ya venden con Cataloga
         </p>
       </div>
       <div className="mt-9 mask-fade-x overflow-hidden">

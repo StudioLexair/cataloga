@@ -31,14 +31,14 @@ export default function Pillars() {
       <div className="container-site">
         <Reveal>
           <div className="max-w-2xl">
-            <p className="eyebrow">Por qué Vitrina</p>
+            <p className="eyebrow">Por qué Cataloga</p>
             <h2 className="mt-4 font-display text-[clamp(2.1rem,4.2vw,3.2rem)] leading-[1.08] text-ink">
               Tu catálogo actual te está{" "}
               <span className="font-displayItal italic text-terra">costando ventas</span>.
             </h2>
             <p className="mt-5 text-[17px] leading-relaxed text-ink-soft">
               Los PDF pesados, las fotos de celular y las listas de precios en
-              WhatsApp se quedaron en 2018. Vitrina convierte tu inventario en
+              WhatsApp se quedaron en 2018. Cataloga convierte tu inventario en
               una experiencia que enamora y se puede medir.
             </p>
           </div>

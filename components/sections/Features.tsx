@@ -45,7 +45,7 @@ const features = [
 export default function Features() {
   return (
     <section className="section-pad relative overflow-hidden bg-cream/60">
-      <img
+      <img loading="lazy" decoding="async"
         src="/art/divider-arcs.svg"
         alt=""
         aria-hidden
@@ -62,7 +62,7 @@ export default function Features() {
               </span>
             </h2>
             <p className="mt-5 text-[17px] leading-relaxed text-ink-soft">
-              Vitrina reúne las piezas que tu negocio necesita para publicar,
+              Cataloga reúne las piezas que tu negocio necesita para publicar,
               compartir y vender con un catálogo digital profesional.
             </p>
           </div>

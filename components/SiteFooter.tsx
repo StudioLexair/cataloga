@@ -28,7 +28,7 @@ const columns = [
   {
     title: "Empresa",
     links: [
-      { label: "Sobre Vitrina", href: "#producto" },
+      { label: "Sobre Cataloga", href: "#producto" },
       { label: "Contacto", href: "#cta-final" },
       { label: "Privacidad", href: "#cta-final" },
       { label: "Términos", href: "#cta-final" },
@@ -54,7 +54,7 @@ export default function SiteFooter() {
             <div className="flex items-center gap-3">
               <LogoMark size={42} />
               <span className="font-display text-xl tracking-[0.28em]">
-                VITRINA
+                CATALOGA
               </span>
             </div>
             <p className="mt-5 max-w-xs text-[15px] leading-relaxed text-paper/70">
@@ -131,7 +131,7 @@ export default function SiteFooter() {
 
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <p className="text-[12.5px] text-paper/50">
-            © {new Date().getFullYear()} Vitrina · Un producto de Studio Lexair.
+            © {new Date().getFullYear()} Cataloga · Un producto de Studio Lexair.
             Todos los derechos reservados.
           </p>
           <p className="text-[12.5px] text-paper/50 flex items-center gap-2">

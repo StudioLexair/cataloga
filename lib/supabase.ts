@@ -1,5 +1,5 @@
 /**
- * Capa de datos de Vitrina.
+ * Capa de datos de Cataloga.
  *
  * El catálogo demo funciona 100% con datos locales (`data/catalog.ts`) para que
  * la demo nunca dependa de la red. Este módulo deja preparada la conexión con

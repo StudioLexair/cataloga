@@ -1,9 +1,9 @@
 -- ============================================================
--- Vitrina · Esquema multi-tenant para el sistema de catálogos
+-- Cataloga · Esquema multi-tenant para el sistema de catálogos
 -- Ejecutar en el SQL Editor de Supabase.
 -- ============================================================
 
--- Negocios (cada cliente de Vitrina)
+-- Negocios (cada cliente de Cataloga)
 create table if not exists businesses (
   id uuid primary key default gen_random_uuid(),
   slug text unique not null,

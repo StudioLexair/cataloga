@@ -15,7 +15,7 @@ const faqs = [
     a: "Sí. Importamos tus productos desde Excel, CSV o imágenes, y si tienes un catálogo impreso lo escaneamos y estructuramos. El resultado es un catálogo navegable, no un PDF colgado en una web.",
   },
   {
-    q: "¿Vitrina cobra comisión por venta?",
+    q: "¿Cataloga cobra comisión por venta?",
     a: "Nunca. Pagas una única vez por el plan que elijas (en CUP) y todas las ventas tuyas son 100% tuyas. Sin comisiones, sin intermediarios.",
   },
   {

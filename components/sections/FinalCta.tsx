@@ -11,7 +11,7 @@ export default function FinalCta() {
     <section id="cta-final" className="relative overflow-hidden scroll-mt-24">
       <div className="container-site py-24 sm:py-28">
         <div className="grain relative overflow-hidden rounded-[36px] bg-gradient-to-br from-terra to-terra-dark px-8 py-16 sm:px-16 sm:py-20 text-white">
-          <img
+          <img loading="lazy" decoding="async"
             src="/art/divider-arcs.svg"
             alt=""
             aria-hidden
@@ -47,7 +47,7 @@ export default function FinalCta() {
             <Reveal delay={2}>
               <p className="mt-6 max-w-xl text-[17px] leading-relaxed text-white/85">
                 Agenda 15 minutos y te mostramos cómo quedaría tu negocio en
-                Vitrina — con tus productos, tu marca y tu link funcionando
+                Cataloga — con tus productos, tu marca y tu link funcionando
                 desde el primer día.
               </p>
             </Reveal>
@@ -55,7 +55,7 @@ export default function FinalCta() {
             <Reveal delay={3}>
               <div className="mt-9 flex flex-wrap items-center gap-3">
                 <a
-                  href="mailto:studio.lexair@gmail.com?subject=Quiero%20mi%20catálogo%20Vitrina"
+                  href="mailto:studio.lexair@gmail.com?subject=Quiero%20mi%20catálogo%20Cataloga"
                   className="btn inline-flex bg-white text-terra-dark hover:-translate-y-0.5 hover:bg-white/95 shadow-lift"
                 >
                   Solicitar mi demo gratuita

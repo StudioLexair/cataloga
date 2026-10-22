@@ -12,7 +12,7 @@ const plans = [
     features: [
       "1 catálogo básico",
       "Hasta 25 productos",
-      "Diseño con estilo Vitrina",
+      "Diseño con estilo Cataloga",
       "Link propio + QR imprimible",
       "Pedidos por WhatsApp",
       "Funciones esenciales",
