@@ -7,7 +7,7 @@ const testimonials = [
       "Pasamos de mandar un PDF de 30 MB por WhatsApp a compartir un link que enamora. Las consultas se duplicaron en el primer mes y las recibimos con el producto ya elegido.",
     name: "Valentina Ríos",
     role: "Fundadora · Casa Lum",
-    avatar: "/avatars/avatar-1.svg",
+    avatar: "/avatars/cliente-1.jpg",
     metric: "2× consultas",
   },
   {
@@ -15,7 +15,7 @@ const testimonials = [
       "Mis clientes en el mostrador escanean el QR y ven todo el inventario con precios al día. Dejamos de imprimir folletos que cada mes se desactualizaban.",
     name: "Diego Martín",
     role: "Gerente comercial · El Clavo",
-    avatar: "/avatars/avatar-2.svg",
+    avatar: "/avatars/cliente-2.jpg",
     metric: "−100% folletos",
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
       "Lo que más me sorprendió fue el panel: sé qué vinos miran, a qué hora y desde qué ciudad. Cataloga nos dice dónde está la demanda antes de comprar inventario.",
     name: "Ana Paredes",
     role: "Directora · Bodega Sur",
-    avatar: "/avatars/avatar-3.svg",
+    avatar: "/avatars/cliente-3.jpg",
     metric: "+38% conversión",
   },
 ];

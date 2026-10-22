@@ -164,7 +164,7 @@ export default function CatalogClient() {
 
               <div className="relative">
                 <img
-                  src="/hero-interior.jpg"
+                  src="/products/banner-coleccion.jpg"
                   alt="Colección Otoño Invierno 2026 de Casa Lum"
                   className="w-full h-auto rounded-4xl border border-line shadow-lift"
                 />
